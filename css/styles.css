@@ -45,3 +45,27 @@ body {
     border-bottom: 1px solid #ddd;
     padding: 10px;
 }
+.carousel {
+    background:#512DA8;
+}
+
+.carousel-item {
+  height: 300px;
+}
+
+.carousel-item img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25%;
+    min-height: 300px;
+    float: left;
+}
+
+.carousel-caption {
+    padding-top: 100px;
+    padding-right: 100px;
+    position: relative;
+    width: 75%;
+}
+
